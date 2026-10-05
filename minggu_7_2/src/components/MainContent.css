@@ -1,0 +1,58 @@
+.main-content {
+  flex: 1;
+  padding: 2rem;
+  transition: all 0.3s ease;
+}
+
+.content-section {
+  max-width: 900px;
+  margin: 0 auto;
+}
+
+.content-section h2 {
+  text-align: center;
+  margin-bottom: 2rem;
+}
+
+.info-card {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+  margin-bottom: 2rem;
+  transition: all 0.3s ease;
+}
+
+.info-card h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.info-card p {
+  margin-bottom: 0.5rem;
+}
+
+.feature-list {
+  padding: 1.5rem;
+  border-radius: 8px;
+  border: 1px solid;
+  transition: all 0.3s ease;
+}
+
+.feature-list h3 {
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.feature-list ul {
+  list-style-position: inside;
+  padding-left: 0.5rem;
+}
+
+.feature-list li {
+  padding: 0.5rem 0;
+  border-bottom: 1px solid rgba(128, 128, 128, 0.2);
+}
+
+.feature-list li:last-child {
+  border-bottom: none;
+}
